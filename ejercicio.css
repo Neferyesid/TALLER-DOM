@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+.formSuma{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+    align-items: center;
+    gap: 10px;
+    
+}
+.ejercicio{
+   text-align: center;
+   margin-bottom: 10px;
+   
+}
+.botones{
+    display: flex;
+    gap: 5px;
+}
+.ejemplo{
+    
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+}
+.ejerColor{
+
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* validacion textarea */
+textarea:valid {border-color: #55d688;}
+textarea:invalid{border-color: red;}
+
+@keyframes shake{
+    0%, 100%{transform: translateX(0);}
+    25% {transform: translateX(8px);}
+    75%{transform: translateX(-8px);}
+}
+textarea:invalid{animation: shake 0.1436s/* velocidad */ 1s/* tiempo de respuestas */ 3/* las veces que se repite la animacion */}
+
+
+.primario_img {
+    border-style: double;
+    margin-top: 40px;
+    margin-left: 40%;
+    width: 500px;
+    height: 348px;
+
+}
+.primario_img img{
+    width: 450px;
+    height: 300px;
+    position: relative;
+    margin: 25px 25px;
+}
+
+.contePrincipal{
+    display: block;
+}
+.secundario_img{
+    margin-top: 50px;
+    margin-left: 40%;
+    width: 500px;
+    display: flex;
+   
+
+}
+.secundario_img img{
+    width: 100px;
+    margin: 12px ;
+    border-radius: 10px;
+}
